@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>BD Delivery 3</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/* Style the body */
+body {
+  font-family: Montserrat;
+  margin: 0;
+}
+
+/* Header/Logo Title */
+.header {
+  padding: 15px;
+  text-align: left;
+  background: #55BCC9;
+  color: white;
+  font-size: 15px;
+}
+
+/* Page Content */
+.content {padding:20px;}
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.logo {float:right}
+
+.button1 {background-color: #4CAF50;} /* Green */
+.button2 {background-color: #55BCC9;} /* Blue */
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Databases Project - Delivery 3</h1>
+  <img id="logo" src="http://nt2f.tecnico.ulisboa.pt/assets/images/ist-logo-white-513x208.png" alt="logo.png" title="IST" align="right" width="200" height="auto" />
+  <p>98929 - Bernardo Paulo</p>
+  <p>98930 - Daniel Costa</p>
+  <p>98966 - Rui Santos</p>
+</div>
+
+<div class="content">
+  <h1>Operações</h1>
+  <p>Inserir/Remover Categorias e Sub-Categorias</p>
+  <button class="button button2" onclick="document.location='../app.cgi/add_or_remove_category/'">...</button>
+  <hr>
+  <p>Inserir/Remover um Retalhista (e todos os seus Produtos)</p>
+  <button class="button button2" onclick="document.location='../app.cgi/add_or_remove_retailer/'">...</button>
+  <hr>
+  <p>Listar todos os Eventos de Reposição de uma IVM</p>
+  <button class="button button2" onclick="document.location='../app.cgi/insert_nserie_manufacturer_ivm/'">...</button>
+  <hr>
+  <p>Listar todas as Sub-categorias de uma Super-categoria</p>
+  <button class="button button2" onclick="document.location='../app.cgi/insert_supercat/'">...</button>
+</div>
+
+</body>
+</html>
